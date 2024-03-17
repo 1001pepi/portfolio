@@ -3847,11 +3847,13 @@ body.is-preload #header.alt .logo {
     padding: 5em 5em 3em 5em;
     width: calc(100% + 2em);
     margin: 0 0 3em -2em;
+    justify-content: center;
 }
 
 #footer>* {
-    width: calc(50% - 2em);
+    width: calc(60% - 2em);
     margin-left: 2em;
+    justify-content: center;
 }
 
 #footer .copyright {
@@ -3885,7 +3887,7 @@ body.is-preload #header.alt .logo {
     }
 
     #footer .copyright {
-        text-align: left;
+        text-align: center;
     }
 
 }
