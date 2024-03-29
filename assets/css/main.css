@@ -141,6 +141,18 @@ body {
     -webkit-text-size-adjust: none;
 }
 
+.container {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 50px;
+    text-align: justify;
+  }
+  
+  .column {
+    flex: 1;
+  }
+
+
 mark {
     background-color: transparent;
     color: inherit;
